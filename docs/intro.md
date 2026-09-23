@@ -20,7 +20,7 @@ En esta web está el material del módulo: apuntes, ejemplos y enunciados. Las e
 
 | UT | Contenido | Horas | RA |
 |---|---|---|---|
-| UT1 | Entorno, Kotlin y primera app | 4 | RA1 |
+| UT1 | Tecnologías para dispositivos móviles | 4 | RA1 |
 | UT2 | Compose: diseño, botones y estado | 24 | RA1 y RA2 |
 | UT3 | Listas, navegación y arquitectura | 20 | RA2 |
 | UT4 | Conexión a internet y JSON | 6 | RA2 |

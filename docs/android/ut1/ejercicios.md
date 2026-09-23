@@ -1,9 +1,10 @@
 ---
-title: "Práctica 2 · Kotlin básico"
-slug: /android/ut1/ejercicios
+title: "Práctica · Kotlin básico"
+sidebar_label: "Práctica: Kotlin básico"
+slug: /android/ut2/kotlin-ejercicios
 ---
 
-# Práctica 2 · Kotlin básico
+# Práctica · Kotlin básico
 
 Si alguno no te sale, entrégalo igual con un comentario al principio:
 
@@ -54,7 +55,7 @@ saludar(veces = 3)
 
 ## Entrega
 
-En la tarea **«UT1 · Día 2: ejercicios»** del aula virtual, al acabar la sesión:
+En la tarea **«UT2 · Kotlin básico»** del aula virtual, al acabar la sesión:
 
-- `MainActivity.kt`, de la [práctica 1](/android/ut1/primera-app), con los tres comentarios del «rompe y arregla».
+- `MainActivity.kt`, de la [práctica de la primera app](/android/ut2/primera-app), con los tres comentarios del «rompe y arregla».
 - `kotlin_basico.kt`, con los cinco ejercicios de esta práctica.

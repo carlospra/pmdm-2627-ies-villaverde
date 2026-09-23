@@ -1,6 +1,6 @@
 ---
 title: "Las piezas de una app con Compose"
-slug: /android/ut1/piezas-app-compose
+slug: /android/ut2/piezas-app-compose
 ---
 
 # Las piezas de una app con Compose

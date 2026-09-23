@@ -39,10 +39,18 @@ El equipo instala Android Studio siguiendo el [manual de instalación](/android/
 
 ## Entrega
 
-- **Cada uno, Scrum Master incluido:** su cuaderno en PDF, en la tarea **«UT1 · Día 1: cuaderno»** del aula virtual, hasta el miércoles 23/09 a las 20:05.
+- **Cada uno, Scrum Master incluido:** su cuaderno en PDF, en la tarea **«UT1 · Día 1: cuaderno»** del aula virtual, hasta el **martes 29/09**, antes de que empiece la UT2.
 - **Solo el Scrum Master:** la hoja del equipo en PDF, en la tarea **«UT1 · Día 1: hoja del equipo»**, al acabar la clase.
 
-La plantilla del cuaderno está en el aula virtual. No cuenta para la nota.
+:::warning Si te quedaste a medias
+No pasa nada: termina la instalación en casa y entrega el cuaderno cuando la tengas, hasta el martes 29/09. La UT2 empieza con el proyecto abierto, así que ese día hace falta que todo el mundo la tenga.
+:::
+
+La plantilla del cuaderno está en el aula virtual.
+
+:::note Este no cuenta para la nota
+Os lo dije el primer día y se mantiene: este cuaderno es de rodaje, para coger la costumbre de entregar. Las [prácticas de la sesión siguiente](/android/ut1/practicas) sí cuentan como ejercicios de clase del RA1.
+:::
 
 ## Qué voy a revisar
 

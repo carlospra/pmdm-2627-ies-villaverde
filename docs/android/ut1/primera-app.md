@@ -1,9 +1,10 @@
 ---
-title: "Práctica 1 · Tu primera app"
-slug: /android/ut1/primera-app
+title: "Práctica · Tu primera app"
+sidebar_label: "Práctica: tu primera app"
+slug: /android/ut2/primera-app
 ---
 
-# Práctica 1 · Tu primera app
+# Práctica · Tu primera app
 
 Una app con un saludo: la creas, la ejecutas y la vas cambiando.
 
@@ -89,4 +90,4 @@ Con este formato, el mismo que usarás cuando un ejercicio no te salga:
 // HE PROBADO: revisar el nombre; era Column, con n al final.
 ```
 
-La entrega está explicada al final de la [práctica 2](/android/ut1/ejercicios).
+La entrega está explicada al final de la [práctica de Kotlin](/android/ut2/kotlin-ejercicios).

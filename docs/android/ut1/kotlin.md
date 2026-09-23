@@ -1,6 +1,6 @@
 ---
 title: "Kotlin para quien sabe Java"
-slug: /android/ut1/kotlin
+slug: /android/ut2/kotlin
 ---
 
 # Kotlin para quien sabe Java
