@@ -36,4 +36,6 @@ En esta web está el material del módulo: apuntes, ejemplos y enunciados. Las e
 
 ## Evaluación
 
-Cada RA se califica con los ejercicios de clase (25 %), el proyecto (45 %) y una prueba práctica (30 %). El RA1 va aparte: su prueba (80 %) y la formación en empresa (20 %). Hay que superar todos los RA. *Pendiente de aprobación en la programación del departamento.*
+Cada RA se califica con los ejercicios de clase (25 %), el proyecto (45 %) y una prueba práctica (30 %). Hay que superar todos los RA. *Pendiente de aprobación en la programación del departamento.*
+
+La tercera evaluación es la formación en empresa (FFE).

@@ -38,12 +38,12 @@ Se abre la pantalla de bienvenida de Android Studio, con las opciones para crear
 
 ## Paso 6. Comprobar la versión
 
-En la pantalla de bienvenida, la versión aparece debajo del nombre, arriba a la izquierda. También se puede ver con `Help → About` (en macOS, `Android Studio → About Android Studio`) cuando hay un proyecto abierto. Tiene que poner **Quail 4 | 2026.1.4 Patch 1**. Díselo a tu coordinador.
+En la pantalla de bienvenida, la versión aparece debajo del nombre, arriba a la izquierda. También se puede ver con `Help → About` (en macOS, `Android Studio → About Android Studio`) cuando hay un proyecto abierto. Tiene que poner **Quail 4 | 2026.1.4 Patch 1**. Díselo a tu Scrum Master.
 
 ## El cuaderno de la sesión
 
 Mientras instalas, haz una captura de cada paso: con ellas se hace el [ejercicio práctico del cuaderno de instalación](/android/ut1/cuaderno-instalacion).
 
 :::tip Si no te da tiempo
-Termínalo en casa antes de la siguiente clase. El coordinador apunta quién.
+Termínalo en casa antes de la siguiente clase. El Scrum Master lo apunta en la hoja del equipo.
 :::

@@ -34,12 +34,15 @@ El equipo instala Android Studio siguiendo el [manual de instalación](/android/
 ## Cómo se trabaja
 
 - Cada uno en su ordenador. Os ayudáis explicando, nunca tecleando en el ordenador de otro.
-- El coordinador lleva la hoja del equipo y me da el parte a las 16:20 y a las 16:40.
+- El Scrum Master lleva la hoja del equipo (seguimiento de cada paso) y me da el parte a las 16:20 y a las 16:40.
 - La tabla de versiones del equipo la podéis rellenar juntos al final: es la misma para todos.
 
 ## Entrega
 
-En PDF, en la tarea **«UT1 · Día 1: cuaderno»** del aula virtual, hasta el miércoles 23/09 a las 20:05. La plantilla está en el aula virtual. No cuenta para la nota: el RA1 se califica con su prueba y con la formación en empresa.
+- **Cada uno, Scrum Master incluido:** su cuaderno en PDF, en la tarea **«UT1 · Día 1: cuaderno»** del aula virtual, hasta el miércoles 23/09 a las 20:05.
+- **Solo el Scrum Master:** la hoja del equipo en PDF, en la tarea **«UT1 · Día 1: hoja del equipo»**, al acabar la clase.
+
+La plantilla del cuaderno está en el aula virtual. No cuenta para la nota.
 
 ## Qué voy a revisar
 
