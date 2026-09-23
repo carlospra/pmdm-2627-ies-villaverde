@@ -42,16 +42,7 @@ En la pantalla de bienvenida, la versión aparece debajo del nombre, arriba a la
 
 ## El cuaderno de la sesión
 
-Cada uno entrega su propio cuaderno, aunque trabajéis en equipo. Para cada paso del 1 al 6, pega una captura (o una foto de la pantalla hecha con el móvil) y explica con tus palabras **qué** has hecho, **por qué** y **para qué** sirve. La plantilla está en el aula virtual; se entrega en PDF en la tarea «UT1 · Día 1: cuaderno».
-
-| Paso | Qué captura |
-|---|---|
-| 1 | El instalador descargado o copiado |
-| 2 | El instalador con los componentes elegidos |
-| 3 | El asistente con la opción Standard |
-| 4 | La descarga del SDK terminada |
-| 5 | La pantalla de bienvenida |
-| 6 | La versión instalada |
+Mientras instalas, haz una captura de cada paso: con ellas se hace el [ejercicio práctico del cuaderno de instalación](/android/ut1/cuaderno-instalacion).
 
 :::tip Si no te da tiempo
 Termínalo en casa antes de la siguiente clase. El coordinador apunta quién.

@@ -14,6 +14,7 @@ const sidebars = {
           link: { type: 'doc', id: 'android/ut1/indice' },
           items: [
             'android/ut1/puesta-a-punto',
+            'android/ut1/cuaderno-instalacion',
             'android/ut1/dispositivos-moviles',
             'android/ut1/piezas-app-compose',
             'android/ut1/primera-app',
