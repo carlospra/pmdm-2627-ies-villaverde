@@ -30,6 +30,24 @@ Ese esquema desapareció como tal, y la idea sigue intacta con otros nombres:
 | Dispositivos soportados | `<uses-feature>`: cámara, GPS, biometría. La tienda filtra los incompatibles | `AndroidManifest.xml` |
 | Capacidades de pantalla | Densidades `mdpi` a `xxxhdpi`, y unidades `dp` y `sp` | Carpetas `res/` |
 
+## Qué es un nivel de API
+
+Cada versión de Android trae su propio conjunto de clases y funciones que podéis llamar desde el código. A ese conjunto se le llama **API**, y para no tener que nombrar la versión comercial dentro del proyecto, cada una lleva además un **nivel de API**: un número entero que sube de uno en uno con cada versión.
+
+| Android | Nivel de API | Año |
+|---|---|---|
+| 13 | 33 | 2022 |
+| 14 | 34 | 2023 |
+| 15 | 35 | 2024 |
+| 16 | 36 | 2025 |
+
+Dos cosas que conviene fijar:
+
+- El nombre comercial —Android 16— es para el usuario. El **nivel de API** —36— es el que escribís vosotros en el `build.gradle.kts`. Es el mismo sistema dicho de dos maneras.
+- El número sube siempre y nunca se reutiliza, y cada nivel **incluye todo lo anterior**: una clase que existía en API 24 sigue existiendo en API 36, salvo que Google la haya marcado como obsoleta.
+
+Los tres números del apartado siguiente son niveles de API, no versiones comerciales.
+
 ## Los tres números que declara vuestro proyecto
 
 | | Qué significa | Si os equivocáis |
@@ -45,15 +63,6 @@ La regla es siempre **`minSdk` ≤ `targetSdk` ≤ `compileSdk`**.
 Desde el 31 de agosto de 2026, **Google Play exige `targetSdk` 36 (Android 16)** para aplicaciones nuevas y para actualizaciones. Mantener ese número al día no es opcional: es la razón de que haya que revisar una aplicación todos los años aunque no cambie ni una funcionalidad.
 
 En iOS, el equivalente del `minSdk` es el **Deployment Target** y el del `compileSdk` es el **Base SDK**.
-
-### Niveles de API
-
-| Android | Nivel de API |
-|---|---|
-| 13 | 33 |
-| 14 | 34 |
-| 15 | 35 |
-| 16 | 36 |
 
 ## La fragmentación
 

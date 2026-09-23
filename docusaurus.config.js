@@ -25,7 +25,14 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        docs: { routeBasePath: '/', sidebarPath: './sidebars.js' },
+        docs: {
+          routeBasePath: '/',
+          sidebarPath: './sidebars.js',
+          // Fecha de la última modificación al pie de cada página.
+          // La saca de los commits, así que no hay que mantenerla a mano.
+          // Necesita fetch-depth: 0 en .github/workflows/deploy.yml.
+          showLastUpdateTime: true,
+        },
         blog: false,
         theme: { customCss: './src/css/custom.css' },
       }),
