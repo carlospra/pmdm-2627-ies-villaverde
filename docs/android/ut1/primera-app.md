@@ -1,22 +1,16 @@
 ---
-title: "Tu primera app"
+title: "Práctica 1 · Tu primera app"
 slug: /android/ut1/primera-app
 ---
 
-# Tu primera app: Greeting Card
+# Práctica 1 · Tu primera app
 
-Una app que muestra un saludo con tu nombre. Haz cada paso **en tu propio ordenador** y una captura al terminarlo: las necesitas para el cuaderno del día 1.
+Una app con un saludo: la creas, la ejecutas y la vas cambiando.
 
-## Paso 1. Abrir Android Studio y ver la versión
-
-Abre Android Studio, entra en `Help → About` y apunta la versión.
-
-## Paso 2. Crear el proyecto
-
-En la pantalla de bienvenida, pulsa **New Project** (con un proyecto abierto: `File → New → New Project`) y rellena así:
+## 1. Crear el proyecto
 
 ```text
-Phone and Tablet → Empty Activity → Next
+New Project → Phone and Tablet → Empty Activity → Next
 Name:          Greeting Card
 Minimum SDK:   el que viene por defecto
 → Finish
@@ -26,31 +20,28 @@ Minimum SDK:   el que viene por defecto
 Elige **Empty Activity**, no *Empty Views Activity*: esa hace las pantallas con XML, la forma antigua. Nosotros usamos Jetpack Compose.
 :::
 
-Al pulsar Finish, Android Studio descarga lo que necesita (Gradle). La primera vez tarda varios minutos; verás el progreso en la barra de abajo.
+Espera a que Gradle termine sin errores (barra de abajo). Después abre `MainActivity.kt` en la vista **Split** para ver a la vez el código y la vista previa.
 
-## Paso 3. Localizar MainActivity.kt y la vista previa
+## 2. Preparar dónde ejecutar
 
-En el panel Project, con la vista Android, abre:
+- **Emulador:** `Tools → Device Manager → + → Create Virtual Device`, un teléfono Pixel y la imagen del sistema recomendada. Pesa más de 1 GB.
+- **Tu móvil:** activa las opciones de desarrollador (normalmente, pulsando siete veces en *Número de compilación*, dentro de Ajustes → Información del teléfono), activa la **depuración USB** y conéctalo. Si tu ordenador va justo de memoria, es la mejor opción.
 
-```text
-app → kotlin+java (o java) → com.example.greetingcard → MainActivity.kt
-```
+## 3. Ejecutar
 
-Pasa a la vista **Split** (arriba a la derecha del editor) para ver a la vez el código y la vista previa. Si la vista previa pide compilar, pulsa **Build & Refresh**.
+Elige el dispositivo en la barra de arriba y pulsa **Run 'app'**. Tiene que aparecer «Hello Android!».
 
-## Paso 4. Cambiar el texto del saludo
+## 4. Cambiar el texto del saludo
 
-En la función `Greeting`, cambia el texto:
+En la función `Greeting`:
 
 ```kotlin
 Text(text = "Hola, me llamo $name!", modifier = modifier)
 ```
 
-y pon tu nombre donde ahora pone `"Android"`, tanto en `GreetingPreview` como en `setContent`. La vista previa se actualiza sola.
+y pon tu nombre donde ahora pone `"Android"`, tanto en `GreetingPreview` como en `setContent`.
 
-## Paso 5. Cambiar el color de fondo y el margen
-
-Envuelve el texto en un `Surface` de color y dale un margen:
+## 5. Fondo de color y margen
 
 ```kotlin
 @Composable
@@ -64,18 +55,38 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 }
 ```
 
-Lo que salga en rojo se importa poniendo el cursor encima y pulsando **Alt + Intro**. Si para `Color` te ofrece varias opciones, elige `androidx.compose.ui.graphics.Color`.
+Lo que salga en rojo se importa con el cursor encima y **Alt + Intro**. Si para `Color` te ofrece varias opciones, elige `androidx.compose.ui.graphics.Color`.
 
-## Paso 6. Ejecutar la app en el emulador
+## 6. Dos líneas de texto
 
-1. Abre `Tools → Device Manager` y pulsa **+ → Create Virtual Device**.
-2. Elige un teléfono Pixel → Next → la imagen del sistema recomendada → Next → Finish.
-3. Elige ese dispositivo en la barra de arriba y pulsa **Run 'app'** (el triángulo verde).
+```kotlin
+@Composable
+fun Greeting(name: String, modifier: Modifier = Modifier) {
+    Surface(color = Color.Cyan) {
+        Column(modifier = modifier.padding(24.dp)) {
+            Text(text = "Hola, me llamo $name!")
+            Text(text = "Estudio 2º de DAM en el IES Villaverde")
+        }
+    }
+}
+```
 
-:::tip Si el emulador no arranca
-Usa tu móvil: activa las opciones de desarrollador (normalmente, pulsando siete veces en *Número de compilación*, dentro de Ajustes → Información del teléfono), activa la **depuración USB**, conéctalo y elígelo en la barra de arriba.
-:::
+Ejecútala otra vez para verla en el emulador o en tu móvil.
 
-## Paso 7. Entregar el cuaderno
+## 7. Rompe y arregla
 
-El cuaderno del día 1 recoge, para cada paso del 1 al 6, tu captura y tres respuestas: **qué** has hecho, **por qué** y **para qué** sirve. La plantilla y la tarea están en el aula virtual. Sube solo el cuaderno en PDF, no el proyecto.
+Provoca estos tres errores a propósito. Para cada uno: hazlo, lee el error, apúntalo en un comentario al principio de `MainActivity.kt` y deshazlo.
+
+1. Borra la línea `@Composable` que hay encima de `fun Greeting`.
+2. Cambia el primer `Text(text = "Hola, me llamo $name!")` por `Text(text = 5)`.
+3. En `setContent`, cambia `Greeting(name = "Ana", ...)` por `Greeting(nombre = "Ana", ...)`.
+
+Con este formato, el mismo que usarás cuando un ejercicio no te salga:
+
+```kotlin
+// NO FUNCIONA: no compila.
+// ERROR: Unresolved reference Colum, línea 32.
+// HE PROBADO: revisar el nombre; era Column, con n al final.
+```
+
+La entrega está explicada al final de la [práctica 2](/android/ut1/ejercicios).

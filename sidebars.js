@@ -13,10 +13,11 @@ const sidebars = {
           label: 'UT1 · Entorno, Kotlin y primera app',
           link: { type: 'doc', id: 'android/ut1/indice' },
           items: [
+            'android/ut1/puesta-a-punto',
             'android/ut1/dispositivos-moviles',
+            'android/ut1/piezas-app-compose',
             'android/ut1/primera-app',
             'android/ut1/kotlin',
-            'android/ut1/piezas-app-compose',
             'android/ut1/ejercicios',
           ],
         },

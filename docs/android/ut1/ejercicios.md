@@ -1,19 +1,17 @@
 ---
-title: "Ejercicios de la UT1"
+title: "Práctica 2 · Kotlin básico"
 slug: /android/ut1/ejercicios
 ---
 
-# Ejercicios de la UT1
+# Práctica 2 · Kotlin básico
 
-Se entregan en la tarea **«UT1 · Día 2: ejercicios»** del aula virtual, al acabar la sesión. Si alguno no te sale, entrégalo igual con un comentario al principio:
+Si alguno no te sale, entrégalo igual con un comentario al principio:
 
 ```kotlin
 // NO FUNCIONA: no compila.
 // ERROR: Unresolved reference Colum, línea 32.
 // HE PROBADO: revisar el nombre; era Column, con n al final.
 ```
-
-## Ejercicio 1 · Kotlin básico
 
 Hazlos en [Kotlin Playground](https://play.kotlinlang.org/), un editor de Kotlin en el navegador, o en Android Studio. Guárdalos todos en `kotlin_basico.kt`, con una función por ejercicio y una `main` que las llame.
 
@@ -54,24 +52,9 @@ saludar("Ana")
 saludar(veces = 3)
 ```
 
-## Ejercicio 2 · Modifica tu Greeting Card
+## Entrega
 
-**a) Dos líneas de texto.** Cambia `Greeting` para que muestre dos textos, uno debajo del otro, dentro de una `Column`:
+En la tarea **«UT1 · Día 2: ejercicios»** del aula virtual, al acabar la sesión:
 
-```kotlin
-@Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Column(modifier = modifier) {
-        Text(text = "Hola, me llamo $name!")
-        Text(text = "Estudio 2º de DAM en el IES Villaverde")
-    }
-}
-```
-
-**b) Rompe y arregla.** Provoca estos errores a propósito. Para cada uno: hazlo, lee el error, apúntalo en un comentario al principio de `MainActivity.kt` y deshazlo.
-
-1. Borra la línea `@Composable` que hay encima de `fun Greeting`.
-2. Cambia el primer `Text(text = "Hola, me llamo $name!")` por `Text(text = 5)`.
-3. En `setContent`, cambia `Greeting(name = "Ana", ...)` por `Greeting(nombre = "Ana", ...)`.
-
-**Entrega:** `kotlin_basico.kt` y `MainActivity.kt`, con los tres comentarios.
+- `MainActivity.kt`, de la [práctica 1](/android/ut1/primera-app), con los tres comentarios del «rompe y arregla».
+- `kotlin_basico.kt`, con los cinco ejercicios de esta práctica.
