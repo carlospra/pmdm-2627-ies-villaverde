@@ -33,7 +33,9 @@ Hoy «móvil» ya no significa solo teléfono. La misma plataforma se ejecuta en
 | Televisión | Se maneja con un mando a distancia, a tres metros | Navegación por foco, tipografía grande |
 | Automoción | Atención del conductor limitada por ley | Interfaz restringida y certificada |
 
-Todas comparten el mismo sistema operativo de base, y por eso una decisión como la versión mínima soportada se declara distinta en cada familia.
+Todas comparten la misma base de Android, así que los **niveles de API son los mismos** en todas: API 34 es API 34 en un móvil, en un reloj y en un televisor. Lo que aprendáis sobre la versión mínima vale para las seis familias.
+
+Lo que sí cambia de una a otra son dos cosas. La primera, **dónde conviene poner ese mínimo**: el parque de aparatos de cada familia se renueva a un ritmo distinto, así que el mismo número deja fuera a distinta gente según el tipo de aparato. La segunda, que **cada familia se declara aparte en el manifiesto**, con una etiqueta `<uses-feature>` que dice para qué tipo de aparato es la aplicación (`android.hardware.type.watch` para reloj, `android.hardware.type.television` para televisor). La tienda usa esa etiqueta para no ofrecer una aplicación de reloj a quien tiene un móvil.
 
 ## Características comunes
 
