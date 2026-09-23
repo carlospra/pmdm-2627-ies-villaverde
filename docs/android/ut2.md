@@ -8,7 +8,7 @@ slug: /android/ut2
 
 **RA1 y RA2 · 24 horas.** Aquí empieza el código, y aquí empieza también el proyecto en equipo.
 
-Para el primer día hace falta tener **Android Studio Quail 4 (2026.1.4) Patch 1** instalado y comprobado. Si te falta, tienes el [manual de instalación](/android/ut1/puesta-a-punto).
+Empezamos el **miércoles 30/09**, y hace falta tener ya **Android Studio Quail 4 (2026.1.4) Patch 1** instalado y comprobado. Si te falta, tienes el [manual de instalación](/android/ut1/puesta-a-punto).
 
 ## Los dos primeros días
 

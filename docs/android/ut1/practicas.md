@@ -24,8 +24,8 @@ Lo que rellenáis y entregáis es la **plantilla** que tenéis en el aula virtua
 
 Las tres cuentan como **ejercicios de clase del RA1**, que son el 25 % de la nota de ese RA.
 
-- Entregad siempre, aunque no os salga. Un ejercicio incompleto se califica por lo que hayáis hecho: si explicáis al principio **qué habéis intentado y dónde os habéis quedado**, puede llegar hasta un 8. Sin esa explicación, el máximo es un 5.
-- Si entregáis fuera de plazo, la nota máxima es un 5.
+- Entregad siempre, aunque no os salga. Un ejercicio **incompleto o con errores** se califica por lo que hayáis hecho, y puede llegar hasta un **8**, siempre que escribáis al principio **qué habéis intentado y dónde os habéis quedado**. **Sin esa explicación está suspenso**, por mucho que hayáis hecho.
+- **Plazo:** hoy, al acabar la sesión. Se admiten entregas posteriores hasta el **cierre de la unidad, el martes 29/09**, con la nota máxima de 5. Pasada esa fecha el aula virtual ya no las acepta.
 - Una práctica copiada es un 1 para quien copia y para quien se deja copiar.
 
 ---
