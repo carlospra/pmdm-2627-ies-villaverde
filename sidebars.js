@@ -59,6 +59,8 @@ const sidebars = {
             'android/ut2/practica-tarjeta',
             'android/ut2/layouts',
             'android/ut2/practica-layouts',
+            'android/ut2/material3',
+            'android/ut2/practica-material3',
           ],
         },
         'android/ut3',
