@@ -1,10 +1,11 @@
 ---
-title: "Versiones, emuladores y fragmentación"
-sidebar_label: "Versiones y fragmentación"
-slug: /android/ut1/versiones-y-fragmentacion
+title: "1.6 · Emuladores, configuraciones y perfiles"
+sidebar_label: "1.6 · Emuladores, configuraciones y perfiles"
+sidebar_position: 16
+slug: /android/ut1/1-6-emuladores-configuraciones-perfiles
 ---
 
-# Versiones, emuladores y fragmentación
+# 1.6 · Emuladores, configuraciones y perfiles
 
 ## Emuladores
 
@@ -14,9 +15,32 @@ Un emulador ejecuta un aparato virtual en vuestro ordenador: distintos modelos, 
 Se suele pensar que hace falta un dispositivo físico para desarrollar y probar. No es así. Pero el emulador tampoco lo sustituye: no reproduce el rendimiento real, ni el comportamiento de la cámara y los sensores, ni las capas del fabricante. La práctica profesional combina los dos: emulador para el desarrollo diario, aparato real antes de publicar.
 :::
 
+### Qué es un AVD
+
+Un **AVD** (*Android Virtual Device*) es la definición de un móvil virtual, y se crea en el Device Manager eligiendo dos cosas:
+
+| Parte | Qué define |
+|---|---|
+| Perfil de hardware | El modelo: tamaño y densidad de pantalla, memoria, botones, sensores disponibles |
+| Imagen de sistema | La versión de Android (nivel de API), con o sin servicios de Google Play, y la arquitectura del procesador |
+
+La imagen de sistema del emulador es **x86_64** en los ordenadores con procesador Intel o AMD, la misma arquitectura que el ordenador. Así el emulador ejecuta Android casi a velocidad nativa usando la **virtualización del procesador** (VT-x o AMD-V, que se activa en la BIOS), en lugar de traducir instrucción a instrucción las de un móvil ARM. Sin la virtualización activada, el emulador va muy lento o no arranca. Aquí vuelve a aparecer la [práctica 2](/android/ut1/practicas): una app sin código nativo vale igual para un móvil ARM que para un emulador x86_64.
+
+### Del emulador al móvil real
+
+Para ejecutar vuestra app en vuestro móvil:
+
+1. **Ajustes › Información del teléfono** y pulsad siete veces sobre **Número de compilación**. Activa las Opciones de desarrollador, que están ocultas para que nadie las toque por error. El camino cambia según el fabricante.
+2. En **Opciones de desarrollador**, activad **Depuración por USB**.
+3. Conectad el cable y aceptad en el móvil la huella del ordenador. Es la autorización de adb del [apartado 1.5](/android/ut1/1-5-entornos-y-lenguajes). Desde Android 11 también se puede usar la **depuración inalámbrica**.
+4. El móvil aparece en Android Studio junto a los emuladores, y Run lo instala.
+
+Lo practicamos en la UT2: instalar la aplicación en un móvil real es un criterio de evaluación propio (RA2 h).
+
+
 ## Configuraciones y perfiles
 
-El currículo del módulo pide conocer las **configuraciones** —tipos, características y dispositivos soportados— y los **perfiles**. Es terminología de **Java ME**, la plataforma de la primera etapa. Os la cuento una vez para que la reconozcáis, y después la traducimos.
+El currículo del módulo pide conocer las **configuraciones** —tipos, características y dispositivos soportados— y los **perfiles**. Es terminología de **Java ME**, la plataforma de la primera etapa del [apartado 1.1](/android/ut1/1-1-dispositivos-moviles). Os la cuento una vez para que la reconozcáis, y después la traducimos.
 
 Una **configuración** describía el mínimo común garantizado de una familia de aparatos: qué máquina virtual, qué subconjunto del lenguaje y qué librerías básicas estaban aseguradas. Se distinguía **CLDC**, para dispositivos limitados, de **CDC**, para los de más recursos. Sobre esa base, un **perfil** —**MIDP**— añadía interfaz de usuario, almacenamiento persistente, red y ciclo de vida. La combinación de configuración y perfil determinaba a qué aparatos podía dirigirse un programa.
 

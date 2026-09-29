@@ -1,12 +1,13 @@
 ---
-title: "Tecnologías de desarrollo: nativo y multiplataforma"
-sidebar_label: "Nativo y multiplataforma"
-slug: /android/ut1/tecnologias-y-plataformas
+title: "1.4 · Tecnologías de desarrollo: nativas y multiplataforma"
+sidebar_label: "1.4 · Nativo y multiplataforma"
+sidebar_position: 14
+slug: /android/ut1/1-4-tecnologias-de-desarrollo
 ---
 
-# Tecnologías de desarrollo: nativo y multiplataforma
+# 1.4 · Tecnologías de desarrollo: nativas y multiplataforma
 
-Es la decisión con la que arranca cualquier proyecto móvil real.
+El currículo pide expresamente distinguir las tecnologías nativas de las multiplataforma. Es, además, la decisión con la que arranca cualquier proyecto móvil real.
 
 **Desarrollo nativo.** Usa el lenguaje y las herramientas propias de cada plataforma: Kotlin con Android Studio, Swift con Xcode. Da el máximo rendimiento y acceso completo a las capacidades del aparato, y obliga a desarrollar dos veces.
 

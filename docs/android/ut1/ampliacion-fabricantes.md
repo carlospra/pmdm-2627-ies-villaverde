@@ -1,10 +1,11 @@
 ---
-title: "Fabricantes, capas y custom ROMs"
-sidebar_label: "Fabricantes y custom ROMs"
-slug: /android/ut1/fabricantes-y-custom-roms
+title: "Ampliación · Fabricantes, capas y custom ROMs"
+sidebar_label: "Ampliación · Fabricantes"
+sidebar_position: 30
+slug: /android/ut1/ampliacion-fabricantes
 ---
 
-# Fabricantes, capas y custom ROMs
+# Ampliación · Fabricantes, capas y custom ROMs
 
 Esto no entra en el currículo del módulo, pero sí en la prueba del RA1 como parte de la fragmentación, y explica la mitad de los fallos raros que os vais a encontrar.
 

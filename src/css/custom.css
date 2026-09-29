@@ -1,30 +1,151 @@
 /**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
+ * Estilo de la web: Material Design 3 (m3.material.io) con esquema verde,
+ * el mismo que usan los apuntes, las guías y las presentaciones del módulo.
+ * Tipografía Roboto. Los colores son los roles de M3 (primary, surface…).
  */
 
-/* You can override the default Infima variables here. */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400&family=Roboto+Mono:wght@400;500&display=swap');
+
+/* ---------- Tema claro ---------- */
 :root {
-  --ifm-color-primary: #009668;
-  --ifm-color-primary-dark: #00875e;
-  --ifm-color-primary-darker: #007f58;
-  --ifm-color-primary-darkest: #006949;
-  --ifm-color-primary-light: #00a572;
-  --ifm-color-primary-lighter: #00ad78;
-  --ifm-color-primary-lightest: #00c386;
-  --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  /* primary y sus tonos (Infima los necesita todos) */
+  --ifm-color-primary: #4c662b;
+  --ifm-color-primary-dark: #445c27;
+  --ifm-color-primary-darker: #415725;
+  --ifm-color-primary-darkest: #35471e;
+  --ifm-color-primary-light: #54702f;
+  --ifm-color-primary-lighter: #577531;
+  --ifm-color-primary-lightest: #638538;
+
+  /* Roles de M3 */
+  --m3-primary-container: #cdeda3;
+  --m3-on-primary-container: #354e16;
+  --m3-secondary-container: #dce7c8;
+  --m3-on-secondary-container: #404a33;
+  --m3-tertiary-container: #bcece7;
+  --m3-surface: #f9faef;
+  --m3-surface-container-low: #f3f4e9;
+  --m3-surface-container: #eeefe3;
+  --m3-on-surface: #1a1c16;
+  --m3-on-surface-variant: #44483d;
+  --m3-outline-variant: #c5c8ba;
+
+  /* Aplicación a Infima */
+  --ifm-background-color: var(--m3-surface);
+  --ifm-background-surface-color: var(--m3-surface-container-low);
+  --ifm-font-color-base: var(--m3-on-surface);
+  --ifm-toc-border-color: var(--m3-outline-variant);
+  --ifm-hr-border-color: var(--m3-outline-variant);
+  --ifm-table-border-color: var(--m3-outline-variant);
+  --ifm-table-stripe-background: var(--m3-surface-container-low);
+
+  --ifm-font-family-base: 'Roboto', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --ifm-heading-font-family: 'Roboto', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --ifm-font-family-monospace: 'Roboto Mono', ui-monospace, SFMono-Regular, Consolas, monospace;
+  --ifm-heading-font-weight: 400;
+  --ifm-code-font-size: 92%;
+
+  /* Formas de M3: esquinas grandes y botones en píldora */
+  --ifm-global-radius: 16px;
+  --ifm-code-border-radius: 12px;
+  --ifm-button-border-radius: 100px;
+  --ifm-pagination-nav-border-radius: 16px;
+  --ifm-alert-border-radius: 16px;
+  --ifm-card-border-radius: 24px;
+
+  --ifm-navbar-background-color: var(--m3-surface-container);
+  --ifm-navbar-shadow: none;
+  --ifm-footer-background-color: #2f312a;
+  --ifm-menu-color-background-active: var(--m3-secondary-container);
+  --ifm-menu-color-active: var(--m3-on-secondary-container);
+
+  --docusaurus-highlighted-code-line-bg: rgba(76, 102, 43, 0.12);
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
+/* ---------- Tema oscuro (esquema oscuro M3 del mismo verde) ---------- */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-color-primary: #b1d18a;
+  --ifm-color-primary-dark: #a0c771;
+  --ifm-color-primary-darker: #98c265;
+  --ifm-color-primary-darkest: #7fae45;
+  --ifm-color-primary-light: #c2dba3;
+  --ifm-color-primary-lighter: #cae0af;
+  --ifm-color-primary-lightest: #e3eed5;
+
+  --m3-primary-container: #354e16;
+  --m3-on-primary-container: #cdeda3;
+  --m3-secondary-container: #404a33;
+  --m3-on-secondary-container: #dce7c8;
+  --m3-tertiary-container: #1f4e4b;
+  --m3-surface: #12140e;
+  --m3-surface-container-low: #1a1c16;
+  --m3-surface-container: #1e201a;
+  --m3-on-surface: #e2e3d8;
+  --m3-on-surface-variant: #c5c8ba;
+  --m3-outline-variant: #44483d;
+
+  --ifm-footer-background-color: #1a1c16;
+  --docusaurus-highlighted-code-line-bg: rgba(177, 209, 138, 0.15);
+}
+
+/* ---------- Detalles de componentes ---------- */
+
+/* Títulos: peso normal, como los headline de M3 */
+.markdown h1,
+.markdown h2 {
+  font-weight: 400;
+}
+.markdown h3,
+.markdown h4 {
+  font-weight: 500;
+}
+
+/* Tablas: cabecera tonal y esquinas redondeadas */
+.markdown table {
+  border-radius: 16px;
+  overflow: hidden;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+.markdown table thead tr {
+  background-color: var(--m3-primary-container);
+  color: var(--m3-on-primary-container);
+}
+
+/* Bloques de código y avisos: superficies M3 sin sombra */
+.theme-code-block {
+  box-shadow: none;
+}
+.theme-admonition {
+  box-shadow: none;
+  border-left-width: 0;
+}
+.alert--info,
+.alert--secondary {
+  background-color: var(--m3-secondary-container);
+  color: var(--m3-on-secondary-container);
+}
+.alert--success {
+  background-color: var(--m3-primary-container);
+  color: var(--m3-on-primary-container);
+}
+.alert--warning {
+  background-color: var(--m3-tertiary-container);
+  color: var(--m3-on-surface);
+}
+
+/* Menú lateral: elemento activo en píldora tonal */
+.menu__link {
+  border-radius: 100px;
+}
+.menu__link--active:not(.menu__link--sublist) {
+  font-weight: 500;
+}
+
+/* Barra superior */
+.navbar {
+  border-bottom: 1px solid var(--m3-outline-variant);
+}
+.navbar__title {
+  font-weight: 500;
 }

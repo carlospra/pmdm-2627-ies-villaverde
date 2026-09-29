@@ -8,14 +8,14 @@ slug: /android/ut2
 
 **RA1 y RA2 · 24 horas.** Aquí empieza el código, y aquí empieza también el proyecto en equipo.
 
-Empezamos el **miércoles 30/09**, y hace falta tener ya **Android Studio Quail 4 (2026.1.4) Patch 1** instalado y comprobado. Si te falta, tienes el [manual de instalación](/android/ut1/puesta-a-punto).
+Empezamos el **miércoles 07/10**, y hace falta tener ya **Android Studio Quail 4 (2026.1.4) Patch 1** instalado y comprobado. Si te falta, tienes el [manual de instalación](/android/ut1/puesta-a-punto).
 
-## Los dos primeros días
+## Qué hacemos cada día
 
-| Qué hacemos | Material |
-|---|---|
-| Crear el proyecto, ejecutarlo y cambiarlo | [Práctica: tu primera app](/android/ut2/primera-app) · [Las piezas de una app con Compose](/android/ut2/piezas-app-compose) |
-| El lenguaje, para los que venís de Java | [Kotlin para quien sabe Java](/android/ut2/kotlin) · [Práctica: Kotlin básico](/android/ut2/kotlin-ejercicios) |
+| Día | Qué hacemos | Material |
+|---|---|---|
+| Miércoles 07/10 | Tu primera app en tu móvil · sprint 1.1 del proyecto | [Práctica: tu primera app](/android/ut2/primera-app) · [Las piezas de una app con Compose](/android/ut2/piezas-app-compose) |
+| Martes 13/10 | Kotlin para Android: variables, nulos, when, funciones, colecciones y clases | [1 · Kotlin para Android](/android/ut2/kotlin) · [Práctica: Kotlin](/android/ut2/kotlin-ejercicios) |
 
 ## Qué más viene en esta unidad
 

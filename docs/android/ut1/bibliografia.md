@@ -31,4 +31,4 @@ slug: /android/ut1/bibliografia
 
 ## Licencias
 
-Los materiales de *Android Developers* y sus codelabs se publican bajo licencia **Creative Commons Reconocimiento 4.0**, que permite reutilizarlos y adaptarlos citando la fuente. El material de este módulo es propio, adaptado a partir de esa documentación.
+Los materiales de *Android Developers* y sus codelabs se publican bajo licencia **Creative Commons Reconocimiento 4.0**, que permite reutilizarlos y adaptarlos citando la fuente. Su documentación y el código que aparece en ella se publican además bajo licencia **Apache 2.0**. El material de este módulo es propio, adaptado a partir de esa documentación.
