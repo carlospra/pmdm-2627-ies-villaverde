@@ -16,6 +16,8 @@ Empezamos el **miércoles 07/10**, y hace falta tener ya **Android Studio Quail 
 |---|---|---|
 | Miércoles 07/10 | Tu primera app en tu móvil · sprint 1.1 del proyecto | [Práctica: tu primera app](/android/ut2/primera-app) · [Las piezas de una app con Compose](/android/ut2/piezas-app-compose) |
 | Martes 13/10 | Kotlin para Android: variables, nulos, when, funciones, colecciones y clases | [1 · Kotlin para Android](/android/ut2/kotlin) · [Práctica: Kotlin](/android/ut2/kotlin-ejercicios) |
+| Miércoles 14/10 | Texto, imágenes y recursos · sprint 2.1 | [2 · Texto, imágenes y recursos](/android/ut2/texto-imagenes-recursos) · [Práctica: tarjeta de presentación](/android/ut2/tarjeta) |
+| Martes 20/10 | Row, Column, Box y Modifier · **prueba del RA1** | [3 · Organizar la pantalla](/android/ut2/layouts) · [Práctica: layouts](/android/ut2/layouts-ejercicios) |
 
 ## Qué más viene en esta unidad
 
